@@ -1,0 +1,25 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    gap:20px;
+}
+
+.grid{
+    display:flex;
+    flex-direction: column;
+    height:480px;
+    width:480px;
+}
+
+.row{
+    display:flex;
+    flex:1;
+}
+
+.square{
+    border:solid 1px black;
+    flex:1;
+    background-color:rgba(0, 0, 0, 0);
+}
